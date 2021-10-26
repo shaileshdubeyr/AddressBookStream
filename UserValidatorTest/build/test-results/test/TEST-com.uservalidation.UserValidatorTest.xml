@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.uservalidation.UserValidatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-26T22:00:27" hostname="DESKTOP-6QHCVA8" time="0.037">
+<testsuite name="com.uservalidation.UserValidatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-26T22:15:38" hostname="DESKTOP-6QHCVA8" time="0.035">
   <properties/>
-  <testcase name="givenNumberWhenShouldReturnTrue()" classname="com.uservalidation.UserValidatorTest" time="0.037"/>
+  <testcase name="givenPasswordShouldReturnTrue()" classname="com.uservalidation.UserValidatorTest" time="0.035"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
