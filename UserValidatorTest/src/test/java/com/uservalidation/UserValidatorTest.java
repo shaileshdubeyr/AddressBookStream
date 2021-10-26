@@ -7,9 +7,9 @@ public class UserValidatorTest {
    private Assertions Assert;
 
    @Test
-   public void givenNameWhenPropershouldReturnTrue(){
+   public void givenEmailWhenShouldReturnTrue(){
       UserValidator userDetails = new UserValidator();
-         boolean testStatus = userDetails.lastName("Dubey");
+         boolean testStatus = userDetails.gMail("shailesh.kush@kushhfu.com.in");
          Assert.assertTrue(testStatus);
    }
 }
