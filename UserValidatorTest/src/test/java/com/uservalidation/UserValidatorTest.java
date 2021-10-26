@@ -9,7 +9,7 @@ public class UserValidatorTest {
    @Test
    public void givenNameWhenPropershouldReturnTrue(){
       UserValidator userDetails = new UserValidator();
-         boolean testStatus = userDetails.LastName("Dubey");
+         boolean testStatus = userDetails.lastName("Dubey");
          Assert.assertTrue(testStatus);
    }
 }
