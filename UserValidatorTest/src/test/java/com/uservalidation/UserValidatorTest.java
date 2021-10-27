@@ -9,7 +9,7 @@ public class UserValidatorTest {
    @Test
    public void givenPasswordShouldReturnTrue(){
       UserValidator userDetails = new UserValidator();
-         boolean testStatus = userDetails.passwordTest("shailesh");
+         boolean testStatus = userDetails.passwordTest("Shailesh96");
          Assert.assertTrue(testStatus);
    }
 }
