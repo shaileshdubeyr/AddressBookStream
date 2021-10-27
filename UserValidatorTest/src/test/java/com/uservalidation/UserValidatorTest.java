@@ -7,9 +7,9 @@ public class UserValidatorTest {
    private Assertions Assert;
 
    @Test
-   public void givenPasswordShouldReturnTrue(){
+   public void givenPasswordShouldReturnTrueWhenSpecialCharaterhaveAnyOne(){
       UserValidator userDetails = new UserValidator();
-         boolean testStatus = userDetails.passwordTest("Shailesh96");
+         boolean testStatus = userDetails.passwordTest("ShaileshDubey@123");
          Assert.assertTrue(testStatus);
    }
 }
