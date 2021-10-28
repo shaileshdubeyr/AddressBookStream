@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.uservalidation.UserValidatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-28T00:02:33" hostname="DESKTOP-6QHCVA8" time="0.029">
+<testsuite name="com.uservalidation.UserValidatorTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-10-28T17:42:29" hostname="DESKTOP-6QHCVA8" time="0.072">
   <properties/>
-  <testcase name="givenMessageShouldReturnHappyWhenTestIsPassed()" classname="com.uservalidation.UserValidatorTest" time="0.029"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="givenFirstNameWhenPropershouldReturnTrue[0: isValid(abc-100@yahoo.com)=true]" classname="com.uservalidation.UserValidatorTest" time="0.014"/>
+  <testcase name="givenFirstNameWhenPropershouldReturnTrue[1: isValid(abc.100@yahoo.com)=true]" classname="com.uservalidation.UserValidatorTest" time="0.002"/>
+  <testcase name="givenFirstNameWhenPropershouldReturnTrue[2: isValid(abc111@gmail.com)=true]" classname="com.uservalidation.UserValidatorTest" time="0.0"/>
+  <testcase name="givenFirstNameWhenPropershouldReturnTrue[3: isValid(abc-100@abc.com)=true]" classname="com.uservalidation.UserValidatorTest" time="0.002"/>
+  <testcase name="givenFirstNameWhenPropershouldReturnTrue[4: isValid(abc-100@abc.com)=true]" classname="com.uservalidation.UserValidatorTest" time="0.002"/>
+  <testcase name="givenFirstNameWhenPropershouldReturnTrue[5: isValid(abc@gmail.com.com)=true]" classname="com.uservalidation.UserValidatorTest" time="0.009"/>
+  <testcase name="givenFirstNameWhenPropershouldReturnTrue[6: isValid(abc@gmail.com.com)=true]" classname="com.uservalidation.UserValidatorTest" time="0.004"/>
+  <testcase name="givenFirstNameWhenPropershouldReturnTrue[7: isValid(abc@1.com)=true]" classname="com.uservalidation.UserValidatorTest" time="0.004"/>
+  <testcase name="givenFirstNameWhenPropershouldReturnTrue[8: isValid(abc+100@gmail.com)=true]" classname="com.uservalidation.UserValidatorTest" time="0.002"/>
+  <testcase name="givenFirstNameWhenPropershouldReturnTrue[9: isValid(abc)=false]" classname="com.uservalidation.UserValidatorTest" time="0.002"/>
+  <testcase name="givenFirstNameWhenPropershouldReturnTrue[10: isValid(.abc+100@gmail.com)=false]" classname="com.uservalidation.UserValidatorTest" time="0.003"/>
+  <testcase name="givenFirstNameWhenPropershouldReturnTrue[11: isValid(abc+100@gmail.com)=false]" classname="com.uservalidation.UserValidatorTest" time="0.003"/>
+  <testcase name="givenFirstNameWhenPropershouldReturnTrue[12: isValid(abc+100@gmail.a)=false]" classname="com.uservalidation.UserValidatorTest" time="0.002"/>
+  <testcase name="givenFirstNameWhenPropershouldReturnTrue[13: isValid(abc+100@.gmail.com)=false]" classname="com.uservalidation.UserValidatorTest" time="0.004"/>
+  <testcase name="givenFirstNameWhenPropershouldReturnTrue[14: isValid(abc+100*()@gmail.com)=false]" classname="com.uservalidation.UserValidatorTest" time="0.002"/>
+  <system-out><![CDATA[sum of numbers = : true
+sum of numbers = : true
+sum of numbers = : true
+sum of numbers = : true
+sum of numbers = : true
+sum of numbers = : true
+sum of numbers = : true
+sum of numbers = : true
+sum of numbers = : true
+sum of numbers = : false
+sum of numbers = : false
+sum of numbers = : false
+sum of numbers = : false
+sum of numbers = : false
+sum of numbers = : false
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,13 +1,15 @@
 package com.uservalidation;
 
 import java.util.regex.Pattern;
-import java.util.regex.Matcher;
 
 public class UserValidator {
-    private static final String FIRST_NAME_PATTERN = "^[A-Z]{1}[a-zA-Z]{3,15}$";
+    private static final String EMAIL_PATTERN = "^[a-zA-Z0-9+_.-]+[@]{1}[a-zA-Z0-9]+[.a-z]{3,4}([.a-zA-Z]{3})*$";
 
-    public boolean firstName(String firstName) {
-        boolean mathPattern = Pattern.matches(FIRST_NAME_PATTERN, firstName);
-        return mathPattern;
+    public static boolean gmailTest(String email, boolean actualValue) {
+        boolean matchesString = Pattern.matches(EMAIL_PATTERN, email);
+        if(matchesString == actualValue)
+            return actualValue;
+        else
+            return false;
     }
 }
