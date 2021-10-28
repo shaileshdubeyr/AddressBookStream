@@ -46,10 +46,7 @@ public class UserValidatorTest {
    }
 
    @Test
-   public void givenFirstNameWhenPropershouldReturnTrue() {
-      /*UserValidator userDetails = new UserValgidator();
-      boolean testStatus = userDetails.firstName("Shailesh");
-      Assert.assertTrue(testStatus);*/
+   public void givenInputFOrEmailWhenPropershouldOrNotReturnTrue() {
      boolean actualParameter = UserValidator.gmailTest(emailPattern, expectedResult);
       System.out.println("sum of numbers = : "+actualParameter);
       Assert.assertEquals(expectedResult,actualParameter);
