@@ -30,7 +30,7 @@ public class UserValidator {
             if(mathPattern == true)
                 return mathPattern;
             else
-                throw (new InputMismatchException("given Input is not correct"));
+                throw (new InputMismatchException("given Input lastName is not correct"));
         }
         catch (InputMismatchException inputMismatch){
             System.out.println("Exception "+inputMismatch.getMessage());
@@ -41,14 +41,14 @@ public class UserValidator {
     public boolean mobileNumber(String mobileNumber) {
         try {
             boolean mathPattern = Pattern.matches(MOBILE_NO_PATTERN, mobileNumber);
-        if(mathPattern == true)
-            return mathPattern;
-        else
-            throw (new InputMismatchException("given Input is not correct"));
-    }
-    catch (InputMismatchException inputMismatch){
-        System.out.println("Exception "+inputMismatch.getMessage());
-        return  false;
+            if(mathPattern == true)
+                return mathPattern;
+            else
+                throw (new InputMismatchException("given Input number is not correct"));
+        }
+        catch (InputMismatchException inputMismatch){
+            System.out.println("Exception "+inputMismatch.getMessage());
+            return  false;
         }
     }
 
@@ -58,7 +58,7 @@ public class UserValidator {
             if(mathPattern == true)
                 return mathPattern;
             else
-                throw (new InputMismatchException("given Input is not correct"));
+                throw (new InputMismatchException("given Input for password is not correct"));
         }
         catch (InputMismatchException inputMismatch){
             System.out.println("Exception "+inputMismatch.getMessage());
@@ -71,7 +71,7 @@ public class UserValidator {
             if(mathPattern == true)
                 return mathPattern;
             else
-                throw (new InputMismatchException("given Input is not correct"));
+                throw (new InputMismatchException("given Input Email is not correct"));
         }
         catch (InputMismatchException inputMismatch){
             System.out.println("Exception "+inputMismatch.getMessage());
